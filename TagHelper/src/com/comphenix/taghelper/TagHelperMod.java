@@ -10,7 +10,6 @@ import org.bukkit.plugin.java.JavaPlugin;
 import com.comphenix.protocol.ProtocolLibrary;
 import com.comphenix.protocol.ProtocolManager;
 
-import com.comphenix.protocol.reflect.FieldAccessException;
 import com.google.common.collect.Lists;
 
 public class TagHelperMod extends JavaPlugin {
@@ -57,7 +56,7 @@ public class TagHelperMod extends JavaPlugin {
 		
 		try {
 			manager.updateEntity(watched, observers);
-		} catch (FieldAccessException e) {
+		} catch (Exception e) {
 			logger.log(Level.SEVERE, "Cannot update entity.", e);
 		}
 	}
