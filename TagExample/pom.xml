@@ -42,9 +42,9 @@
   </build>
   
   <scm>
-    <connection>scm:git:git://github.com/aadnk/ProtocolLib.git</connection>
-    <developerConnection>scm:git:git@github.com:aadnk/ProtocolLib.git</developerConnection>
-    <url>https://github.com/aadnk/ProtocolLib</url>
+    <connection>scm:git:git://github.com/aadnk/TagHelper.git</connection>
+    <developerConnection>scm:git:git@github.com:aadnk/TagHelper.git</developerConnection>
+    <url>https://github.com/aadnk/TagHelper</url>
   </scm>
   
   <licenses>
