@@ -1,9 +1,0 @@
-name: TagHelper
-version: 1.0.1
-description: A library for modifying the displayed name in Minecraft.
-author: Comphenix
-website: http://www.comphenix.net/TagHelper
-
-main: com.comphenix.taghelper.TagHelperMod
-depends: [ProtocolLib]
-database: false

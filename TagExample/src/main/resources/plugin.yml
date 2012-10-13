@@ -1,0 +1,13 @@
+name: TagExample
+version: 1.0.1
+description: Example on how to use TagHelper.
+author: Comphenix
+website: http://www.comphenix.net/TagExample
+
+main: com.comphenix.tagexample.TagExampleMod
+database: false
+
+commands:
+   refresh:
+      description: Refreshes nearby players for the given player.
+      usage: /<command> [player]
