@@ -5,5 +5,5 @@ author: Comphenix
 website: http://www.comphenix.net/TagHelper
 
 main: com.comphenix.taghelper.TagHelperMod
-depends: [ProtocolLib]
+depend: [ProtocolLib]
 database: false
